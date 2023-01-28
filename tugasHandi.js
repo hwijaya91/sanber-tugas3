@@ -8,7 +8,7 @@ console.log(calculateX(x))
 
 function calculateX(x) {
   return (
-    x < 0 ? "Tidak bisa inpu bilangan negatif" :
+    x < 0 ? "Tidak bisa input bilangan negatif" :
       x % 2 != 0 ? "Tidak bisa input bilangan ganjil" :
         Math.sqrt(x)
   )
